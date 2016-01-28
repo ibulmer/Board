@@ -63,3 +63,12 @@
   border-width: 5px;
 
 }
+
+.toolbar {
+  text-align: center;
+}
+
+.btn-toolbar{
+  text-align: center;
+  @include button-variant(red, orange, blue);
+}
